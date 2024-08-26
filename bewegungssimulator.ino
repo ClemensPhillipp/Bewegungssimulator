@@ -24,20 +24,6 @@ void setup() {
 }
 
 void loop() {
-  // openDoor();
-  // Serial.println("Pause");
-  // delay(10000);
-  // rounds = 0;
-  // closeDoor();
-  // delay(5000);
-  // // s1.write(default_position1 + 20);
-  // // delay(1000);
-  // // s2.write(default_position2 + 20);
-  // // delay(1000);
-  // // s2.write(default_position2 - 20);
-  // //   delay(1000);
-  // // s2.write(default_position2 + 50);
-
   if (rounds >= 50) {
     goHome();
     openDoor();
